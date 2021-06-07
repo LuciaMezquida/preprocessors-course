@@ -1,0 +1,24 @@
+{
+  "name": "preprocessors-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuciaMezquida/preprocessors-course.git"
+  },
+  "keywords": [],
+  "author": "Lucia Mezquida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuciaMezquida/preprocessors-course/issues"
+  },
+  "homepage": "https://github.com/LuciaMezquida/preprocessors-course#readme"
+}

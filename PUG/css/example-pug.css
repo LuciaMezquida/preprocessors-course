@@ -35,7 +35,7 @@ footer {
   text-transform: uppercase;
 }
 
-header .boton,
+header .button,
 header a {
   margin-left: auto;
 }
@@ -55,26 +55,26 @@ header a {
   padding: 40px 0 0 40px;
 }
 
-.intro__imagen img {
+.intro__image img {
   width: 350px;
   height: auto;
   margin-right: 40px;
 }
 
-.intro__contenido p {
+.intro__contents p {
   max-width: 90%;
   font-size: 20px;
   line-height: 40px;
   margin: 15px 0 30px 0;
 }
 
-.intro__contenido span {
+.intro__contents span {
   display: block;
   font-weight: bold;
   font-style: italic;
 }
 
-.boton {
+.button {
   display: block;
   width: 200px;
   height: 50px;
@@ -89,34 +89,34 @@ header a {
   text-decoration: none;
 }
 
-.boton:hover {
+.button:hover {
   background-color: #333;
   color: #fff;
   text-decoration: none;
 }
 
-.contenido {
+.contents {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.caja {
+.box {
   max-width: 400px;
   margin: 50px 20px;
 }
 
-.caja__imagen {
+.box__image {
   background-color: #ced7e9;
   text-align: center;
   padding: 20px 0;
 }
 
-.caja__imagen img {
+.box__image img {
   height: 200px;
   width: auto;
 }
 
-.caja__contenido {
+.box__contents {
   background-color: #eef1f7;
   padding: 20px;
 }

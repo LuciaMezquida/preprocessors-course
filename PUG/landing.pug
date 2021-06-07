@@ -1,0 +1,25 @@
+-var title = "Titulo Principal"
+-var titles = ["Titulo Princial", 'Subtitulo 1', 'Subtitulo 2', 'Subtitulo 3']
+
+doctype html 
+html 
+  head 
+    meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+    link(rel="stylesheet", href="../css/example-pug.css")
+
+  body
+    header 
+      h1 PlatziGames 
+      a.button Registro
+
+    section.intro
+      .intro__image: img(src="../images/pug-image.jpeg", alt="Pug image")
+      .intro__contents 
+        h2 #{title} 
+        p
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          | Non nulla consequuntur ab magnam necessitatibus omnis 
+          | deleniti eaque fuga quos. Unde maiores dolor quia 
+          | laudantium nulla, nesciunt iure id?
+          span Lorem ipsum dolor sit amet consectetur adipisicing.
+        a.button Leer más
