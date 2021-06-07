@@ -1,23 +1,9 @@
--var title = "Titulo Principal"
--var subtitles = ['Subtitulo 1', 'Subtitulo 2', 'Subtitulo 3']
--var user = ""
-
-mixin box(image, title, content)
-  .box 
-    .box__image: img(src="../images/"+image, alt="Pug image")
-    .box__contents 
-      h3= title
-      p= content
+include variables.pug
 
 doctype html 
 html 
   include head.pug
   body
-    header 
-      h1 Pug Rules 
-      if user 
-        a Hola #{user}
-      else
-        a.button Registro
-        
+    include header.pug
     block elements
+    include footer.pug
