@@ -1,5 +1,14 @@
 -var title = "Titulo Principal"
--var titles = ["Titulo Principal", 'Subtitulo 1', 'Subtitulo 2', 'Subtitulo 3']
+-var subtitles = ['Subtitulo 1', 'Subtitulo 2', 'Subtitulo 3']
+-var user = ""
+
+mixin box(image, title, content)
+  .box 
+    .box__image: img(src="../images/"+image, alt="Pug image")
+    .box__contents 
+      h3= title
+      p= content
+      a.button Leer más
 
 doctype html 
 html 
@@ -10,12 +19,15 @@ html
   body
     header 
       h1 Pug Rules 
-      a.button Registro
+      if user 
+        a Hola #{user}
+      else
+        a.button Registro
 
     section.intro
       .intro__image: img(src="../images/pug-image.jpeg", alt="Pug image")
       .intro__contents 
-        h2 #{titles[0]} 
+        h2 #{title} 
         p
           | Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           | Non nulla consequuntur ab magnam necessitatibus omnis 
@@ -24,6 +36,8 @@ html
           span Lorem ipsum dolor sit amet consectetur adipisicing.
         a.button Leer más
       
-      ul 
-        each item in titles
-          li= item
+    main.contents 
+      each item in subtitles
+        +box('pug-image.jpeg', item, 'Lorem ipsum dolor sit amet')
+    
+
