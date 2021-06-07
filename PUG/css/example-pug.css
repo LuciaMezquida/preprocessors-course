@@ -28,7 +28,7 @@ header,
 footer {
   display: flex;
   height: 100px;
-  padding: 20px;
+  padding: 20px 40px;
   font-size: 20px;
   background-color: #8898c0;
   color: #fff;
