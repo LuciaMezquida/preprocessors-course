@@ -12,6 +12,7 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
   line-height: 28px;
 }
 h1,
@@ -61,7 +62,7 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
-  line-height: 53px;
+  line-height: 60px;
 }
 .intro__autor {
   width: 150px;
@@ -90,12 +91,14 @@ h3 {
   margin: 0 auto;
 }
 .articulo--principal__intro {
-  font-size: 26px;
+  font-size: 25px;
+  line-height: 35px;
 }
 .articulo--principal h2 {
   margin: 40px 0;
-  font-size: 50px;
   text-align: center;
+  font-size: 50px;
+  line-height: 60px;
 }
 .articulo--principal h3 {
   color: #8841da;

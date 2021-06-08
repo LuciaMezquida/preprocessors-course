@@ -18,6 +18,10 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+.font(@font-size){
+  font-size: @font-size;
+  line-height: @font-size + 10%;
+}
 
 *{
 	box-sizing: border-box;
@@ -26,6 +30,7 @@ body {
 	margin: 0;
 	font-family: @font-1;
   line-height: @font-base + 10%;
+  .font(@font-base)
 }
 
 h1,h2,h3 {
