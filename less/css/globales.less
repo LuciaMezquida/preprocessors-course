@@ -9,6 +9,16 @@
 @font-2: 'Oswald', sans-serif;
 @font-base: 18px;
 
+//mixins
+.box-shadow {
+  box-shadow: 0 5px 15px 0 fade(@color-primary, 40%);
+}
+.oswald {
+  font-family: @font-2;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 *{
 	box-sizing: border-box;
 }
@@ -19,7 +29,6 @@ body {
 }
 
 h1,h2,h3 {
-	font-family: @font-2;
-	text-transform: uppercase;
+	.oswald;
 	margin: 0;
 }
