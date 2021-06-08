@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  line-height: 28px;
 }
 h1,
 h2,
@@ -41,11 +42,13 @@ h3 {
 .intro__categoria {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
 }
 .intro__titulo {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 50px;
+  line-height: 53px;
 }
 .intro__autor {
   width: 150px;
@@ -57,7 +60,7 @@ h3 {
   color: #fff;
 }
 .intro__autor img {
-  width: 60px;
+  width: 70px;
   height: 60px;
   float: left;
   padding-right: 10px;
@@ -65,4 +68,22 @@ h3 {
 }
 .intro__autor span {
   display: inline-block;
+}
+.intro__autor-titulo {
+  color: rgba(255, 255, 255, 0.5);
+}
+.articulo--principal {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.articulo--principal__intro {
+  font-size: 26px;
+}
+.articulo--principal h2 {
+  margin: 40px 0;
+  font-size: 50px;
+  text-align: center;
+}
+.articulo--principal h3 {
+  color: #8841da;
 }
