@@ -5,7 +5,7 @@
   padding: 20px 0 0 30px;
   justify-content: space-evenly;
   @include box;
-  
+
   &__foto-principal{
     float: left;
     margin-right: 10px;
@@ -16,10 +16,9 @@
   }
   h2{
     margin-bottom: 10px;
-    text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
-    font-family: $font-2;
+    @include titles($font-2);
   }
   img {
     border-radius: 10px;

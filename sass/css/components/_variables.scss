@@ -16,6 +16,15 @@ $color-light: #fff;
   box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.50);
 }
 
+@mixin titles ($font) {
+  @if $font == $font-1 {
+    font-family: $font-1;
+  } @else {
+    font-family: $font-2;
+    text-transform: uppercase;
+  }
+}
+
 //functions
 @function get-opacity($color, $opacity) {
   @return rgba($color, $opacity);
@@ -36,7 +45,7 @@ $color-light: #fff;
 
 body {
 	margin: 0;
-	font-family: $font-1;
+	@include titles($font-1);
 }
 
 main {
