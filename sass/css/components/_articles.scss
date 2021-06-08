@@ -1,0 +1,22 @@
+.articulos {
+  width: 40%;
+  padding: 50px 0 0 50px;
+}
+.articulo {
+  margin-bottom: 75px;
+  border-bottom: 3px solid $color-secondary;
+  &__categoria {
+    font-weight: 500;
+    font-size: 16px;
+    color: $color-secondary;
+    @include titles($font-2);
+  }
+  &__titulo {
+    font-size: 20px;
+    @include titles($font-2);
+  }
+  &__descripcion {
+    margin-bottom: 30px;
+    padding-right: 100px;
+  }
+}

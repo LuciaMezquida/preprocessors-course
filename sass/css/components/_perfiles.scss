@@ -21,11 +21,12 @@
     color: get-opacity($color-light, 0.5);
 	}
 	&__boton {
-		display: block;
+		display: flex;
+    justify-content: center;
+    align-items: center;
 		width: 100px;
 		height: 40px;
 		margin: 15px auto;
-		padding-top: 15px;
 		border-radius: 20px;
 		text-decoration: none;
 		text-align: center;
@@ -38,7 +39,7 @@
 
 .perfil__minibio {
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 20px 0;
   h2{
     @extend .perfil__nombre;
   }
