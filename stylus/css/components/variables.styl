@@ -1,0 +1,32 @@
+//fonts
+font-1 = 'Lato', sans-erif
+font-2 = 'Oswald', sans-erif
+
+//colors
+color-primary = #333
+color-secondary = #8841DA
+color-light = #fff
+
+//mixins
+container()
+  display: flex
+  width: 96%
+  margin: 0 auto
+  padding: 30px 0
+
+box-shadow()
+  background-color color-light
+  box-shadow 0 20px 33px 0 rgba(0,0,0,0.20)
+
+//functions
+opacity(color, quantity)
+  alpha(color,quantity)
+
+//reset
+* 
+  box-sizing: border-box
+
+body
+  margin: 0
+  font-family: font-1
+  color: color-primary
