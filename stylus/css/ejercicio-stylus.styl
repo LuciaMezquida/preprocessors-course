@@ -1,9 +1,21 @@
+//fonts
+font-1 = 'Lato', sans-erif
+font-2 = 'Oswald', sans-erif
+
+//colors
+color-primary = #333
+color-secondary = #8841DA
+color-light = #fff
+
+//mixins
+
 * 
-	box-sizing: border-box
+  box-sizing: border-box
 
 body
-	margin: 0
-	font-family: 'Lato', sans-serif
+  margin: 0
+  font-family: font-1
+  color: color-primary
 
 .buscador
 	width: 100%
@@ -20,7 +32,7 @@ body
 		border-radius: 30px
 		font-size: 25px
 
-.encabezado--con-filtrs
+.encabezado--con-filtros
   display: flex
   width: 90%
   margin: 0 auto
@@ -30,8 +42,15 @@ body
     text-transform: uppercase
     font-weight: 500
     font-size: 50px
+    font-family: font-2
   .filtros
     width: 250px
     height: 75px
-    padding: 20px
-    margin-left: auto
+    padding 20px
+    margin-left auto
+    span
+      text-transform uppercase
+    font-family: font-2
+    a
+      margin-left 20px
+      font-size 25px
