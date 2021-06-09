@@ -22,11 +22,25 @@ box-shadow()
 opacity(color, quantity)
   alpha(color,quantity)
 
+titles(font)
+  if font == font-1
+    font-family: font-1
+  else
+    font-family: font-2
+    font-weight 600
+    text-transform uppercase
+
+//loops
+for header in 3 2 1
+  h{header}
+    font-size: 35px - (5 * header)
+    margin: 0
+
 //reset
 * 
   box-sizing: border-box
 
 body
   margin: 0
-  font-family: font-1
+  titles(font-1)
   color: color-primary
